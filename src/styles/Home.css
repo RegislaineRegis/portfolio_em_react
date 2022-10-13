@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  height: 450px;
+  background-color:  #eecccc;
+}
+.title-main {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px ;
+  font-size: 16px;
+}
+.main-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 65%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: center;
+}
+.title-text-main{
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: -8px;
+  margin-left: 10px;
+  justify-content: center;
+}  
+.main-card {
+  border-radius: 20px;
+  box-shadow: rgba(112, 9, 9, 0.1) 0 1px 1px 0 inset ,
+  rgba(50, 50, 93, 0.25) 0 50px 100px -20px , rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 30px;
+  margin-top: 75px;
+  transition: all 0.5s ease-in-out;
+}
+.main-foto {
+  border-radius: 200px;
+  margin-left: none;
+  margin-top: -25px;
+}
+.main-paragrafo {
+  font-size: 20px;
+  margin-top: 75px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 70px;
+}

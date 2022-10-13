@@ -1,0 +1,58 @@
+.habilidades-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(238, 231, 231);
+  padding: 10px;
+}
+  
+.card-habilidades-container {
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset,
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  margin: 1.8%;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+  width: 150px;
+  background-color: white;
+}
+  
+.card-habilidades-container:hover {
+  transform: scale(1.1);
+}
+  
+.text-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+}
+  
+.habilidades-picture {
+  width: 60px;
+}
+  
+.habilidades-title {
+  font-size: 16px;
+  text-align: center;
+} 
+  
+.title-img-container {
+  padding: 5px;
+  flex-direction: column;
+}
+
+.title-habilidades {
+  font-size: 20px;
+  line-height: 3;
+  font-family: 700px;
+  color: white;
+  text-align: center;
+  background-color: rgb(143, 20, 143);;
+}
+
+.icons-heart {
+  text-align: center;
+}
