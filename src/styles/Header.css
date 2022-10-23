@@ -1,9 +1,12 @@
 .header {
   display: flex;
+  color: white;
   align-items: baseline;
   justify-content: space-between;
-  background-color:white;
+  background-color:black;
   padding: 8px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
 }
 
 .nav-ul {
@@ -11,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-  padding-left:0;
+  padding: 16px;
 }
 
 .social-media {
@@ -24,12 +27,12 @@ li {
   padding-right: 30px;
   font-size: large;
   font-weight: 400;
-  color: rgb(51, 48, 50);
+  color: rgba(255, 255, 255, 0.993);
 }
 
 li:hover {
   cursor: pointer;
-  color: rgb(143, 20, 143);
+  color: rgb(80, 75, 80);
   font-weight: 700;
 }
 
