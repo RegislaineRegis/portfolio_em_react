@@ -7,7 +7,7 @@ import Footer from './Footer.jsx';
 
 export default function Habilidades() {
   return (
-    <div><Header/>
+    <div className='habilidades'><Header/>
       <div className="icons-heart"><AiOutlineHeart size="20px" /></div>
       <div className="title-img-container">
         <h2 className="title-habilidades">Habilidades</h2>
