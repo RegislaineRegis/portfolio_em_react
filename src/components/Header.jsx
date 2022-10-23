@@ -6,7 +6,7 @@ import '../styles/Header.css';
 export default function Header() { 
   return (
     <div className="header">
-             <div className="social-media">
+        <div className="social-media">
           <a href="https://github.com/RegislaineRegis" target="_blank" rel="noreferrer">
             <AiFillGithub className="icons-header" size="44px" /> </a>
           <a href="https://www.linkedin.com/in/regislaine-regis/" 
@@ -18,7 +18,8 @@ export default function Header() {
               <Link className= "link" to="/"><li>Home</li></Link>
               <Link className= "link" to="/habilidades"><li >Habilidades</li> </Link>             
               <li>Projetos</li>
-              <li>Contato</li></ul>            
+              <Link className= "link" to="/contato"><li >Contato</li> </Link> 
+          </ul>            
         </nav>
     </div>
   );
