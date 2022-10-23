@@ -1,0 +1,26 @@
+.obrigado {
+  background-color: rgb(87, 81, 81);
+  height: 740px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+} 
+
+.icons-heart-obrigado {
+  color: white;
+  text-align: center;
+  margin-top: 230px;
+}
+
+.title-img-container-obrigado {
+  padding-top: 10px;
+}
+
+.title-obrigado {
+  font-size: 20px;
+  line-height: 3;
+  font-family: 700px;
+  color: white;
+  text-align: center;
+  background-color: rgb(80, 75, 80);
+}
