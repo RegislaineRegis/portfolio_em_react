@@ -77,6 +77,18 @@ const habilidadesApi = [
     image:
     'https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png',
   },
+  {
+    id: 14,
+    title: 'PYTHON',
+    image:
+    'https://www.4biosacademy.com.br/files/thumbs/block_1952-python-logo-3-350x350.png?v=1633611877',
+  },
+  {
+    id: 15,
+    title: 'TYPESCRIPT',
+    image:
+    'https://bognarjunior.files.wordpress.com/2018/09/typescript.png',
+  },
 ];
 
 export default habilidadesApi;

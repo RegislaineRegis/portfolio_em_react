@@ -9,18 +9,22 @@ export default function Contato() {
       <div className='contato'><Header />
          <div className="icons-heart"><AiOutlineHeart size="20px" /></div>
             <div className="title-img-container">
-               <h2 className="title-contatos">Contato</h2>
+               <h2 className="title-contatos">Formulário de Contato</h2>
             </div>
-         <h1> Formulário de Contato</h1>
-         <form action="https://formsubmit.co/nanafidelis@gmail.com"
-         method="Post" >
-            <input type="text" name="name" placeholder="Digite seu nome" required />
-            <input type="email" name="email" placeholder="Digite seu email" required />
-            <textarea name="message" placeholder="Escreva aqui"></textarea>
-            <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value="http://localhost:3000/obrigado"/>
-            <button type="submit">Enviar</button>
-         </form>
+         <div className='formulario'>
+            <form action="https://formsubmit.co/nanafidelis@gmail.com"
+            method="Post" class="form" >
+               <label for="name">Nome</label>
+               <input type="text" name="name" placeholder="Digite seu nome" required />
+               <label for="email">E-mail</label>
+               <input type="email" name="email" placeholder="Digite seu email" required />
+               <label for="message">Mensagem</label>
+               <textarea name="message" placeholder="Escreva aqui" required></textarea>
+               <input type="hidden" name="_captcha" value="false"/>
+               <input type="hidden" name="_next" value="http://localhost:3000/obrigado"/>
+               <button type="submit">Enviar</button>
+            </form>
+         </div>
          <Footer />
       </div>        
        );
