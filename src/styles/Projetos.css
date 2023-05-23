@@ -1,0 +1,71 @@
+.projetos {
+  background-color: rgb(87, 81, 81);
+}
+
+.projetos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  background-color: rgb(87, 81, 81);
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-projetos-container {
+  border-radius: 20px;
+  box-shadow: rgba(248, 246, 246, 0.1) 0 1px 1px 0 inset,
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  margin: 1.8%;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+  width: 550px;
+  height: 550px;
+  background-color: rgb(87, 81, 81);
+}
+
+.card-projetos-container:hover {
+  transform: scale(1.1);
+}
+
+.text-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+}
+
+.projetos-picture {
+	margin-top: 30px ;
+  width: 500px;
+}
+
+.projetos-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+.title-img-container {
+  padding: 5px;
+  flex-direction: column;
+}
+
+.title-projetos {
+  font-size: 20px;
+  line-height: 3;
+  font-family: 700px;
+  color: white;
+  text-align: center;
+  background-color: rgb(80, 75, 80);
+}
+
+.github {
+	text-align: center;
+}
+
+.icons-heart-projetos, .icons-header-projetos {
+  text-align: center;
+  color: white;
+}

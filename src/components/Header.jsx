@@ -17,7 +17,7 @@ export default function Header() {
           <ul className="nav-ul">
               <Link className= "link" to="/"><li>Home</li></Link>
               <Link className= "link" to="/habilidades"><li >Habilidades</li> </Link>             
-              <li>Projetos</li>
+              <Link className= "link" to="/projetos"><li >Projetos</li> </Link> 
               <Link className= "link" to="/contato"><li >Contato</li> </Link> 
           </ul>            
         </nav>

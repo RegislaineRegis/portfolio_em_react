@@ -17,9 +17,10 @@ export default function Home() {
             <p> Tenho 38 anos, sou casada, adoro um bom café, tenho uma filha chamada Amora 
               buldogue inglês sou apaixonada por ela e por qualquer doguinho que encontro por aí.
             </p>
-            <p> Estou estudando para me tornar uma desenvolvedora de software full-Stack, 
-              adoro trabalhar em equipe e compartilhar conhecimentos. Estou realizando
-              uma transição de carreira, pois trabalhei por anos na área da aviação.</p>
+            <p> Estou realizando uma transição de carreira, pois trabalhei por anos na área da aviação.
+              Sou formada pela Trybe no curso de Web Full Stack desde Janeiro de 2023,
+              me identifico mais como desenvolvedora Back-end, 
+              adoro trabalhar em equipe e compartilhar conhecimentos.</p>
           </div></div><Footer />
     </div>        
     );
